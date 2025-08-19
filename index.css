@@ -169,6 +169,9 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: black;     
+    text-decoration: none;
+
 }
 
 /* Main section */
@@ -230,4 +233,28 @@ header {
     color: #94969f;
     text-align: end;
     padding: 15px;
+}
+
+a.action_container {
+    color: black;      /* text/icon color */
+    text-decoration: none; /* removes underline */
+}
+
+.category_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px 0px 0px 30px;
+
+}
+
+.sale_item {
+    width: 250px;
+
+}
+
+.sale1_item {
+    height: 164px;
+    width: 128px;
+    
 }
