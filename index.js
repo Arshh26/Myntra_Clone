@@ -1,21 +1,9 @@
-let itemsContainerElement = document.querySelector(".items-container");
+let itemsContainerElement = document.querySelector('.items-container');
 
-let item = {
-  item_image: 'images/Myntra_item1.jpg',
-  rating: {
-    stars: 4.5,
-    noOfReviews: 1400,
-  },
-  company_Name: 'Napchief',
-  item_name: 'Clothing Set',
-  current_price : 1499,
-  original_price: 2999,
-  discount_percentage: 50,
-
-  }
-
-itemsContainerElement.innerHTML = `
-<div class="item-container">
+let innerHtml = '';
+items.forEach(item => {
+  innerHtml += `
+  <div class="item-container">
     <img class="item-image" src="${item.item_image}" alt="item image">
      <div class="rating">${item.rating.stars}⭐ | ${item.rating.noOfReviews} </div>
         <div class="company-name">${item.company_Name}</div>
@@ -26,4 +14,8 @@ itemsContainerElement.innerHTML = `
            <span class="discount">(${item.discount_percentage}% OFF)</span>
      </div>
  <button class="btn-add-bag">Add to Bag</button>
-</div>`;
+</div>`
+});
+
+itemsContainerElement.innerHTML = innerHtml;
+
