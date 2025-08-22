@@ -267,7 +267,7 @@ a.action_container {
 }
 
 .item-container {
-    width: 200px;
+    width: 250px;
 
 
 }
@@ -313,6 +313,7 @@ a.action_container {
 }
 
 .price {
+    margin-top: 10px;
     font-size: 14px;
     line-height: 15px;
     color: #282c3f;
@@ -345,6 +346,13 @@ a.action_container {
 }
 
 .btn-add-bag {
-
+    font-weight: bold;
+    margin-top:8px;
+    font-size: 18px;
+    width: 100%;
+    background-color: rgb(213, 50, 183);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
 
 }
