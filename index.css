@@ -267,7 +267,9 @@ a.action_container {
 }
 
 .item-container {
+    height: auto; 
     width: 250px;
+    overflow: visible;
 
 
 }
