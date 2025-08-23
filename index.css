@@ -240,11 +240,12 @@ a.action_container {
     text-decoration: none; /* removes underline */
 }
 
-.category_items {
+.category_items, .items-container{
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 50px 0px 0px 30px;
+    margin: 50px 10px ;
 
 }
 
@@ -268,6 +269,7 @@ a.action_container {
 
 .item-container {
     width: 250px;
+    margin: 10px;
 
 }
 
@@ -353,5 +355,6 @@ a.action_container {
     border: none;
     padding: 5px 15px;
     border-radius: 10px;
+    cursor: pointer;
 
 }
