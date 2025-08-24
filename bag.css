@@ -6,7 +6,7 @@
   padding-top: 32px;
   color: #282c3f;
   font-size: 13px;
-  line-height: 1.42857143;
+  line-height: 1.42857143; /*line-height in CSS controls the vertical spacing between lines of text.*/
 }
 
 .bag-page {
@@ -43,7 +43,7 @@
 }
 
 .price-item-value {
-  float: right;
+  float: right;  /*The float property is used to push an element to the left or right of its container, letting other inline content (like text) wrap around it.*/
 }
 
 .priceDetail-base-discount {
@@ -61,7 +61,7 @@
 
 .btn-place-order {
   width: 100%;
-  letter-spacing: 1px;
+  letter-spacing: 1px; /*letter-spacing controls the space between characters in your text.*/
   font-size: 14px;
   font-weight: 600;
   border-radius: 2px;
@@ -83,7 +83,7 @@
 }
 
 .item-left-part {
-  position: absolute;
+  position: absolute; 
   background: rgb(255, 242, 223);
   height: 148px;
   width: 111px;
@@ -91,7 +91,7 @@
 
 .item-right-part {
   padding-left: 12px;
-  position: relative;
+  position: relative; /*It sets an element’s position relative to its normal place in the document flow.By default, elements are position: static (no positioning).*/
   min-height: 148px;
   margin-left: 111px;
   margin-bottom: 12px;

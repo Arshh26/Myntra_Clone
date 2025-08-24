@@ -11,7 +11,7 @@ const items = [
   current_price : 1499,
   original_price: 2999,
   discount_percentage: 50,
-  return_period: 14,
+  return_period: 4,
   delivery_date: '23 Aug 2025',
   },
 
@@ -27,8 +27,8 @@ const items = [
   current_price : 2439,
   original_price: 3049,
   discount_percentage: 20,
-  return_period: 14,
-  delivery_date: '23 Aug 2025',
+  return_period: 6,
+  delivery_date: '26 Aug 2025',
   },
 
  {
@@ -44,7 +44,7 @@ const items = [
   original_price: 1485,
   discount_percentage: 32,
   return_period: 14,
-  delivery_date: '23 Aug 2025',
+  delivery_date: '28 Aug 2025',
   },
 
  {
@@ -59,8 +59,8 @@ const items = [
   current_price : 1719,
   original_price: 3999,
   discount_percentage: 57,
-  return_period: 14,
-  delivery_date: '23 Aug 2025',
+  return_period: 7,
+  delivery_date: '2 Sep 2025',
   },
 
  {
@@ -76,7 +76,7 @@ const items = [
   original_price: 1499,
   discount_percentage: 88,
   return_period: 14,
-  delivery_date: '23 Aug 2025',
+  delivery_date: '4 Sep 2025',
   },
   
   {
@@ -91,8 +91,8 @@ const items = [
   current_price : 449,
   original_price: 3999,
   discount_percentage: 88,
-   return_period: 14,
-  delivery_date: '23 Aug 2025',
+   return_period: 7,
+  delivery_date: '6 Sep 2025',
   },
 
   {
@@ -107,8 +107,8 @@ const items = [
   current_price : 449,
   original_price: 3999,
   discount_percentage: 88,
-   return_period: 14,
-  delivery_date: '23 Aug 2025',
+   return_period: 7,
+  delivery_date: '8 Sep 2025',
   },
 
   {
@@ -124,7 +124,7 @@ const items = [
   original_price: 3999,
   discount_percentage: 65,
   return_period: 14,
-  delivery_date: '23 Aug 2025'
+  delivery_date: '10 Sep 2025',
   },
 
   {
@@ -139,8 +139,8 @@ const items = [
   current_price : 1882,
   original_price: 2689,
   discount_percentage: 30,
-  return_period: 14,
-  delivery_date: '23 Aug 2025',
+  return_period: 7,
+  delivery_date: '10 Sep 2025',
   },
 
   {
@@ -156,7 +156,7 @@ const items = [
   original_price: 5999,
   discount_percentage: 60,
    return_period: 14,
-  delivery_date: '23 Aug 2025',
+  delivery_date: '11 Aug 2025',
   },
 
   {
@@ -172,7 +172,7 @@ const items = [
   original_price: 2010,
   discount_percentage: 60,
    return_period: 14,
-  delivery_date: '23 Aug 2025',
+  delivery_date: '26 Aug 2025',
   },
 
   {
@@ -187,7 +187,7 @@ const items = [
   current_price : 1599,
   original_price: 3999,
   discount_percentage: 60,
-   return_period: 14,
+   return_period: 7,
   delivery_date: '23 Aug 2025',
   },
 
